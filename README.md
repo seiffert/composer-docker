@@ -15,7 +15,7 @@ Usage
 2. Define an bash alias that runs this container whenever `composer` is invoked on the command line:
 
 	``` sh
-	$ echo "alias composer='docker run --rm -it -v $(pwd):/app pseiffert/composer'" >> ~/.bashrc
+	$ echo "alias composer='docker run --rm -it -v $(pwd):/opt pseiffert/composer'" >> ~/.bashrc
 	$ source ~/.bashrc
 	```
 
